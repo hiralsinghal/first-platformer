@@ -2529,12 +2529,12 @@ physics_layer_0/collision_layer = 1
 sources/0 = SubResource("TileSetAtlasSource_h2yge")
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_h2yge"]
-size = Vector2(2220.0308, 110.00305)
+size = Vector2(2100, 86)
 
 [node name="Node" type="Node" unique_id=1733671597]
 
 [node name="Player" type="CharacterBody2D" parent="." unique_id=1567050504]
-position = Vector2(0, 1)
+position = Vector2(50, 6)
 script = ExtResource("1_h2yge")
 
 [node name="Sprite2D" type="Sprite2D" parent="Player" unique_id=1434119352]
@@ -2557,11 +2557,9 @@ tile_set = SubResource("TileSet_1bvp3")
 
 [node name="fallzone" type="Area2D" parent="." unique_id=829293525]
 position = Vector2(526, 937)
-rotation = -0.0010205664
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="fallzone" unique_id=75216196]
-position = Vector2(-59.015167, 41.005493)
-scale = Vector2(1.0000004, 1.0000004)
+position = Vector2(1, 14)
 shape = SubResource("RectangleShape2D_h2yge")
 
 [connection signal="body_entered" from="fallzone" to="Player" method="_on_fallzone_body_entered"]

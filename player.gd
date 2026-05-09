@@ -25,5 +25,5 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 
 
-func _on_fallzone_body_entered():
-	get_tree().change_scene("res://main.tscn")
+func _on_fallzone_body_entered(body):
+	get_tree().reload_current_scene()

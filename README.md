@@ -11,5 +11,7 @@ I created this because I always wanted to explore making a game and learn someth
 ## How to play?
 
 ```A or Left arrow key``` - Move left
+
 ```D or Right arrow key``` - Move right
+
 ```W or Up arrow key``` - Jump
